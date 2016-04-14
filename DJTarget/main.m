@@ -2,7 +2,7 @@
 //  main.m
 //  DJTarget
 //
-//  Created by 魏旺 on 16/4/14.
+//  Created by peter on 16/4/14.
 //  Copyright © 2016年 olive. All rights reserved.
 //
 

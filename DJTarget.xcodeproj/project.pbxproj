@@ -15,6 +15,13 @@
 		851666BA1CBF32C000C6AE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851666B81CBF32C000C6AE47 /* LaunchScreen.storyboard */; };
 		851666C51CBF32C000C6AE47 /* DJTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851666C41CBF32C000C6AE47 /* DJTargetTests.m */; };
 		851666D01CBF32C000C6AE47 /* DJTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851666CF1CBF32C000C6AE47 /* DJTargetUITests.m */; };
+		851666DF1CBF334F00C6AE47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851666B11CBF32C000C6AE47 /* ViewController.m */; };
+		851666E01CBF334F00C6AE47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851666AE1CBF32C000C6AE47 /* AppDelegate.m */; };
+		851666E11CBF334F00C6AE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851666AB1CBF32C000C6AE47 /* main.m */; };
+		851666E41CBF334F00C6AE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851666B81CBF32C000C6AE47 /* LaunchScreen.storyboard */; };
+		851666E51CBF334F00C6AE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851666B61CBF32C000C6AE47 /* Assets.xcassets */; };
+		851666E61CBF334F00C6AE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851666B31CBF32C000C6AE47 /* Main.storyboard */; };
+		851666ED1CBF340200C6AE47 /* DJTargetTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 851666EC1CBF340200C6AE47 /* DJTargetTest.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,8 @@
 		851666CB1CBF32C000C6AE47 /* DJTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		851666CF1CBF32C000C6AE47 /* DJTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTargetUITests.m; sourceTree = "<group>"; };
 		851666D11CBF32C000C6AE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851666EA1CBF334F00C6AE47 /* DJTargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJTargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851666EC1CBF340200C6AE47 /* DJTargetTest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DJTargetTest.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		851666C81CBF32C000C6AE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851666E21CBF334F00C6AE47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +110,7 @@
 				851666A71CBF32C000C6AE47 /* DJTarget.app */,
 				851666C01CBF32C000C6AE47 /* DJTargetTests.xctest */,
 				851666CB1CBF32C000C6AE47 /* DJTargetUITests.xctest */,
+				851666EA1CBF334F00C6AE47 /* DJTargetTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +126,7 @@
 				851666B61CBF32C000C6AE47 /* Assets.xcassets */,
 				851666B81CBF32C000C6AE47 /* LaunchScreen.storyboard */,
 				851666BB1CBF32C000C6AE47 /* Info.plist */,
+				851666EC1CBF340200C6AE47 /* DJTargetTest.plist */,
 				851666AA1CBF32C000C6AE47 /* Supporting Files */,
 			);
 			path = DJTarget;
@@ -196,6 +214,23 @@
 			productReference = 851666CB1CBF32C000C6AE47 /* DJTargetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		851666DD1CBF334F00C6AE47 /* DJTargetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851666E71CBF334F00C6AE47 /* Build configuration list for PBXNativeTarget "DJTargetTest" */;
+			buildPhases = (
+				851666DE1CBF334F00C6AE47 /* Sources */,
+				851666E21CBF334F00C6AE47 /* Frameworks */,
+				851666E31CBF334F00C6AE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJTargetTest;
+			productName = DJTarget;
+			productReference = 851666EA1CBF334F00C6AE47 /* DJTargetTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +269,7 @@
 				851666A61CBF32C000C6AE47 /* DJTarget */,
 				851666BF1CBF32C000C6AE47 /* DJTargetTests */,
 				851666CA1CBF32C000C6AE47 /* DJTargetUITests */,
+				851666DD1CBF334F00C6AE47 /* DJTargetTest */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				851666BA1CBF32C000C6AE47 /* LaunchScreen.storyboard in Resources */,
+				851666ED1CBF340200C6AE47 /* DJTargetTest.plist in Resources */,
 				851666B71CBF32C000C6AE47 /* Assets.xcassets in Resources */,
 				851666B51CBF32C000C6AE47 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851666E31CBF334F00C6AE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851666E41CBF334F00C6AE47 /* LaunchScreen.storyboard in Resources */,
+				851666E51CBF334F00C6AE47 /* Assets.xcassets in Resources */,
+				851666E61CBF334F00C6AE47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +336,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				851666D01CBF32C000C6AE47 /* DJTargetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851666DE1CBF334F00C6AE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851666DF1CBF334F00C6AE47 /* ViewController.m in Sources */,
+				851666E01CBF334F00C6AE47 /* AppDelegate.m in Sources */,
+				851666E11CBF334F00C6AE47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +536,33 @@
 			};
 			name = Release;
 		};
+		851666E81CBF334F00C6AE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"DJTest=1",
+				);
+				INFOPLIST_FILE = DJTarget/DJTargetTest.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DJTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		851666E91CBF334F00C6AE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJTarget/DJTargetTest.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DJTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +598,15 @@
 				851666DC1CBF32C000C6AE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		851666E71CBF334F00C6AE47 /* Build configuration list for PBXNativeTarget "DJTargetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851666E81CBF334F00C6AE47 /* Debug */,
+				851666E91CBF334F00C6AE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DJTargetTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>851666CA1CBF32C000C6AE47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>851666DD1CBF334F00C6AE47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
